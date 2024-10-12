@@ -1,0 +1,96 @@
+.card-div {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  /* z-index: -1; */
+}
+
+
+@media screen and (max-width: 900px) {
+  .card-div {
+    flex-direction: column;
+    width: 95%;
+  }
+}
+
+
+
+.sub-card-div {
+  width: 30%;
+  /* background-color: #405cf5; */
+
+}
+
+@media screen and (max-width: 900px) {
+  .sub-card-div {
+    width: 100%;
+  }
+}
+
+
+
+.testimonial-image {
+  width: 100%;
+}
+
+.testimonial-heading {
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  color: white;
+  background-color: #405cf5;
+
+
+
+}
+
+.testimonial-text {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-weight: lighter;
+  background-color: #405cf5;
+
+}
+
+/* CSS */
+.testimonial-button {
+  background-color: #405cf5;
+  /* border: 1px solid #13aa52; */
+  /* border-radius: 4px; */
+  /* box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0; */
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  text-decoration: none;
+
+  border: none;
+  margin-top: 4px;
+}
+
+.testimonial-button {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
