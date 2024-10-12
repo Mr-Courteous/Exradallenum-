@@ -179,7 +179,6 @@
     animation:fadeInAnimation ease3s ;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    transform: translateY(0);
     transition: all 2s ease-in-out;
 }
 
