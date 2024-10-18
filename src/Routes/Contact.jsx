@@ -34,9 +34,16 @@ function ContactUss() {
             </h2>
 
 
+            <div className="contact-us-div">
+
             <ContactUs />
 
-            <Footer  />
+
+            </div>
+
+
+
+            <Footer />
 
 
         </div>

@@ -33,11 +33,11 @@ function About() {
                 lineHeight: '30px', color: '#747474', fontFamily: "Pacifico", textAlign: 'center', padding:'3%'
 
             }}>
-                ABC School is a premier educational institution dedicated to nurturing young minds and fostering a lifelong love of learning. With a strong emphasis on academic excellence, character development, and extracurricular activities, ABC School provides a comprehensive and enriching educational experience.
+                Exradallenum is a premier educational institution dedicated to nurturing young minds and fostering a lifelong love of learning. With a strong emphasis on academic excellence, character development, and extracurricular activities, Exradallenum provides a comprehensive and enriching educational experience.
 
                 Our school is committed to creating a supportive and inclusive environment where students can thrive and reach their full potential. We believe in empowering students to become critical thinkers, problem-solvers, and compassionate individuals who are prepared to make a positive impact on the world.
 
-                ABC School offers a rigorous curriculum that aligns with the latest educational standards. Our experienced and dedicated faculty are passionate about teaching and inspiring students to develop a deep understanding of various subjects. We also provide a wide range of extracurricular activities, including sports, arts, and clubs, to help students explore their interests and develop essential skills.
+                Exradallenum offers a rigorous curriculum that aligns with the latest educational standards. Our experienced and dedicated faculty are passionate about teaching and inspiring students to develop a deep understanding of various subjects. We also provide a wide range of extracurricular activities, including sports, arts, and clubs, to help students explore their interests and develop essential skills.
             </p>
 
 
