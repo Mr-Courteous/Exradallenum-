@@ -10,7 +10,7 @@
 
 .NumbOne {
     height: 40px;
-    background-color: black;
+    background-color: #405cf5;
     color: white;
 }
 
@@ -20,6 +20,8 @@
     padding-top: 9px;
     display: flex;
     justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+
 }
 
 
@@ -34,14 +36,34 @@
 }
 
 
+.logo {
+    margin-top: 7px;
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: #405cf5;
+    font-size:20px;
+    
+    /* background-color: #405cf5; */
+
+
+
+}
+
+
+
+
 
 
 /* NumbTwo */
 
 .NumbTwo {
     height: 60px;
-    background-color: gray;
-    color: white;
+    background-color: white;
+    color: #405cf5;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+
 }
 
 
@@ -67,7 +89,9 @@
 .para {
     display: inline;
     height: 20px;
-    padding: 2px;
+    /* padding: 5px; */
+    /* line-height: 30px; */
+
 }
 
 .content-two-2 {
@@ -84,6 +108,8 @@
 .NumbThree {
     height: 60px;
     display: block;
+    font-family: "Roboto", sans-serif;
+
 }
 
 .logo {
@@ -99,7 +125,7 @@
 
 .apply-now {
 
-    background-color: black;
+    background-color: #405cf5;
     text-decoration: none;
     color: white;
     padding: 15px;
@@ -158,7 +184,9 @@
     width: 20px;
     margin: 20px;
     text-decoration: none;
-    color: black;
+    color: #405cf5;
+    font-family: "Roboto", sans-serif;
+
 
 }
 
@@ -175,8 +203,8 @@
     transition: all .5s ease-in-out;
 }
 
-.toggle{
-    animation:fadeInAnimation ease3s ;
+.toggle {
+    animation: fadeInAnimation ease3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     transition: all 2s ease-in-out;
@@ -252,36 +280,17 @@
     text-align: center;
 }
 
-/* CSS */
+
 .know-more,
 .contact-us {
-    appearance: button;
-    backface-visibility: hidden;
-    border-radius: 6px;
-    border-width: 0;
-    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
-    box-sizing: border-box;
-    cursor: pointer;
-    font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    height: 44px;
-    line-height: 1.15;
-    margin: 12px 0 0;
-    outline: none;
-    overflow: hidden;
-    padding: 0 25px;
-    /* position: relative; */
-    text-align: center;
-    text-transform: none;
-    transform: translateZ(0);
-    transition: all .2s, box-shadow .08s ease-in;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: 150px;
     margin: 5px;
+    /* line-height: 10px; */
+    padding: 10;
+    font-weight: bold;
 }
+
+
+
 
 @media screen and (max-width: 900px) {
 
@@ -291,25 +300,5 @@
         font-size: 12px;
         display: inline-block;
         padding: 10px;
-        /* margin: 0px; */
     }
-}
-
-
-
-
-.contact-us {
-    background-color: #405cf5;
-    color: #fff;
-
-}
-
-.know-more,
-.contact-us {
-    cursor: default;
-}
-
-.know-more,
-.contact-us {
-    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
 }

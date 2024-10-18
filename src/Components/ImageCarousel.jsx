@@ -32,14 +32,15 @@ function Carousel() {
           </p>
 
 
+          <a href="/withUS">
 
           <button className='know-more'> KNOW MORE </button>
-
+</a>
           <button className='contact-us'> CONTACT US </button>
 
         </div>
 
-        <img className='caro-image' src="images/SlidePictures/USE 1.avif" alt=" school" />
+        <img className='caro-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.12 PM (1).jpeg" alt=" school" />
       </SwiperSlide>
 
 
@@ -59,7 +60,7 @@ function Carousel() {
         </div>
 
 
-        <img className='caro-image' src="images/SlidePictures/USE 2.avif" alt=" school" />
+        <img className='caro-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.12 PM.jpeg" alt=" school" />
       </SwiperSlide>
 
 
@@ -77,7 +78,7 @@ function Carousel() {
 
         </div>
 
-        <img className='caro-image' src="images/SlidePictures/USE 3.avif" alt=" school" />
+        <img className='caro-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.13 PM (2).jpeg" alt=" school" />
       </SwiperSlide>
 
 
@@ -96,8 +97,31 @@ function Carousel() {
 
         </div>
 
-        <img className='caro-image' src="images/SlidePictures/USE 4.avif" alt=" school" />
+        <img className='caro-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.14 PM (1).jpeg" alt=" school" />
       </SwiperSlide>
+
+
+      <SwiperSlide>
+
+        <div className='position'>
+
+          <p className='caro-text'>
+            BRILLIANT STUDENTS
+          </p>
+
+          <button className='know-more'> KNOW MORE </button>
+
+          <button className='contact-us'> CONTACT US </button>
+
+        </div>
+
+        <img className='caro-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.15 PM (2).jpeg" alt=" school" />
+      </SwiperSlide>
+
+
+
+
+      
     </Swiper>
 
   )

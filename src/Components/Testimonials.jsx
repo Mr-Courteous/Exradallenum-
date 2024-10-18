@@ -7,7 +7,7 @@ function Card() {
 
             <div className="sub-card-div">
 
-                <img className='testimonial-image' src="images/SlidePictures/USE 4.avif" alt=" school" />
+                <img className='testimonial-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.14 PM (1).jpeg" alt=" school" />
 
                 <h3 className="testimonial-heading">
                     Montessori Nursery
@@ -27,7 +27,7 @@ function Card() {
 
             <div className="sub-card-div">
 
-                <img className='testimonial-image' src="images/SlidePictures/download (1).jpeg" alt=" school" />
+                <img className='testimonial-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.15 PM (2).jpeg" alt=" school" />
 
                 <h3 className="testimonial-heading">
                     Montessori Nursery
@@ -48,7 +48,7 @@ function Card() {
 
             <div className="sub-card-div">
 
-                <img className='testimonial-image' src="images/SlidePictures/download.jpeg" alt=" school" />
+                <img className='testimonial-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.14 PM.jpeg" alt=" school" />
 
                 <h3 className="testimonial-heading">
                     Montessori Nursery
@@ -65,7 +65,6 @@ function Card() {
 
 
             </div>
-
 
         </div>
     )

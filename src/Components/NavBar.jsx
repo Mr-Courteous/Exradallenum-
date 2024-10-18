@@ -16,13 +16,10 @@ function Navbar() {
 
 
             <div className="navbar">
-                <a href="#home">HOME</a>
-                <a href="#news">ABOUT US</a>
-                <a href="#contact">OUR GALLERY</a>
-                <a href="#about">SCHOOLS</a>
-                <a href="#about">SCHOOL VIDEO</a>
-                <a href="#about">CONTACT US</a>
-                <a href="#about">SCHOOL PORTAL</a>
+                <a href="/">HOME</a>
+                <a href="/about">ABOUT US</a>
+                <a href="/gallery">OUR GALLERY</a>
+                <a href="contact">CONTACT US</a>
 
             </div>
 
@@ -47,27 +44,21 @@ function Navbar() {
 
 
                 <ul className="nav-2-menu">
+
+                    
                     <li className="nav-item">
-                        <a className="nav-link" href="#home">HOME</a>
+                        <a className="nav-link" href="/">HOME</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#news">ABOUT US</a>
+                        <a className="nav-link" href="/about">ABOUT US</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#contact">OUR GALLERY</a>
+                        <a className="nav-link" href="/contact">OUR GALLERY</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#about">SCHOOLS</a>
+                        <a className="nav-link" href="contact">CONTACT US</a>
                     </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#about">SCHOOL VIDEO</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#about">CONTACT US</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#about">SCHOOL PORTAL</a>
-                    </li>
+
                 </ul>
 
             </div>

@@ -1,51 +1,33 @@
 import React from 'react'
-// import './App.css'
-import NumbOne from "./Components/NumberOne"
-import NumbTwo from './Components/NumberTwo'
-import NumbThree from './Components/NumberThree'
-import Carousel from './Components/ImageCarousel'
-import Navbar from './Components/NavBar'
-import Card from './Components/Testimonials'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+
+import Home from './Routes/Home'
+import About from './Routes/About'
+import ContactUss from './Routes/Contact';
+
+
 
 function App() {
 
     return (
+
         <>
-            <div>
 
 
+            <Router>
 
-                <NumbOne />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/contact" element={<ContactUss />} />
+                </Routes>
+            </Router>
 
-                <NumbTwo />
-
-                <NumbThree />
-
-                <Navbar />
-
-                <Carousel />
-
-
-                <Card />
-
-                <h2 style={{ fontWeight:'bold', textAlign:'center', fontFamily:'"Helvetica Neue", Helvetica, Arial, sans-serif'}}> Our Current Achievements & Awards
-
-
-                </h2>
-
-                <NumbTwo />
-
-
-
-
-
-
-
-
-            </div>
 
         </>
     )
 }
 
 export default App
+

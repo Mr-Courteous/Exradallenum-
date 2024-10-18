@@ -12,7 +12,8 @@ function NumbTwo() {
                     <p className="para"> location :
 
                     </p>
-                    <p className="para"> ipaja
+                    <p className="para"> 11 Famuyiwa Estate, Arigbajo, Ogun State
+
 
                     </p>
                 </div>
@@ -22,11 +23,11 @@ function NumbTwo() {
                     <p className="para"> phone :
 
                     </p>
-                    <p className="para">123444
+                    <p className="para">08060735432, 07064382018
 
                     </p>
                 </div>
-                <div className="top-icons">
+                {/* <div className="top-icons">
                     <i class="fa fa-search"></i>
                     <p className="para"> career :
 
@@ -34,13 +35,13 @@ function NumbTwo() {
                     <p className="para"> workmanship
 
                     </p>
-                </div>
+                </div> */}
                 <div className="top-icons">
                     <i class="fa fa-envelope"></i>
                     <p className="para"> email :
 
                     </p>
-                    <p className="para"> jesus@email.coms
+                    <p className="para"> exradallenum@yahoo.com
 
                     </p>
                 </div>

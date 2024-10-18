@@ -8,8 +8,7 @@ function NumbThree() {
             <div className="content">
 
                 <div>
-                    <img className="logo" src="/images/platformschools-4.png" />
-
+                    <p className="logo"> Exradallenum </p>
 
                 </div>
 
