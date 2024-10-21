@@ -4,8 +4,12 @@ import ContactUs from "../Components/Form";
 import NumbOne from "../Components/NumberOne";
 import Navbar from "../Components/NavBar";
 import Footer from "../Components/Footer";
+import Map from "../Components/Map"
+import ContactForm from "../Components/Form-two";
+// import CalendarComponent from "../Components/Calendar";
 
-function ContactUss() {
+
+function Contact() {
     return (
         <div>
 
@@ -34,20 +38,51 @@ function ContactUss() {
             </h2>
 
 
+
             <div className="contact-us-div">
 
-            <ContactUs />
+                <ContactForm />
 
 
             </div>
+
+
+            <h2 style={{ textAlign: 'center', color: '#747474' }}>
+                WE ARE HERE            </h2>
+
+
+            <Map />
 
 
 
             <Footer />
 
 
+            {/* <CalendarComponent /> */}
+
+            <a
+                href="https://wa.link/99zl5j"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="whatsapp-link"
+            >
+                <img style={{
+                    position: 'fixed',
+                    right: '20px',
+                    bottom: '2px',
+                    width: '50px',
+                    // Add any other desired styles here
+                }}
+                    src="images/SlidePictures/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png
+"
+                    alt="WhatsApp Chat"
+                    className="whatsapp-icon"
+                />
+            </a>
+
+
         </div>
     )
 }
 
-export default ContactUss;
+export default Contact;

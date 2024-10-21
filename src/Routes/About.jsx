@@ -30,7 +30,7 @@ function About() {
             </h2>
 
             <p style={{
-                lineHeight: '30px', color: '#747474', fontFamily: "Pacifico", textAlign: 'center', padding:'3%'
+                lineHeight: '30px', color: '#747474', fontFamily: "Pacifico", textAlign: 'center', padding: '3%'
 
             }}>
                 Exradallenum is a premier educational institution dedicated to nurturing young minds and fostering a lifelong love of learning. With a strong emphasis on academic excellence, character development, and extracurricular activities, Exradallenum provides a comprehensive and enriching educational experience.
@@ -39,7 +39,25 @@ function About() {
 
                 Exradallenum offers a rigorous curriculum that aligns with the latest educational standards. Our experienced and dedicated faculty are passionate about teaching and inspiring students to develop a deep understanding of various subjects. We also provide a wide range of extracurricular activities, including sports, arts, and clubs, to help students explore their interests and develop essential skills.
             </p>
-
+            <a
+                href="https://wa.link/99zl5j"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="whatsapp-link"
+            >
+                <img style={{
+                    position: 'fixed',
+                    right: '20px',
+                    bottom: '2px',
+                    width: '50px',
+                    // Add any other desired styles here
+                }}
+                    src="images/SlidePictures/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png
+"
+                    alt="WhatsApp Chat"
+                    className="whatsapp-icon"
+                />
+            </a>
 
             <Footer />
 

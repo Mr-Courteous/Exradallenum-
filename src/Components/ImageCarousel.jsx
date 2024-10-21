@@ -32,11 +32,16 @@ function Carousel() {
           </p>
 
 
-          <a href="/withUS">
+          <a href="/about">
 
-          <button className='know-more'> KNOW MORE </button>
-</a>
-          <button className='contact-us'> CONTACT US </button>
+            <button className='know-more'> KNOW MORE </button>
+          </a>
+          <a href="/contact">
+
+            <button className='contact-us'> CONTACT US </button>
+
+          </a>
+
 
         </div>
 
@@ -53,9 +58,15 @@ function Carousel() {
           </p>
 
 
-          <button className='know-more'> KNOW MORE </button>
+          <a href="/about">
 
-          <button className='contact-us'> CONTACT US </button>
+            <button className='know-more'> KNOW MORE </button>
+          </a>
+          <a href="/contact">
+
+            <button className='contact-us'> CONTACT US </button>
+
+          </a>
 
         </div>
 
@@ -72,9 +83,16 @@ function Carousel() {
             BRILLIANT STUDENTS
           </p>
 
-          <button className='know-more'> KNOW MORE </button>
+          <a href="/about">
 
-          <button className='contact-us'> CONTACT US </button>
+            <button className='know-more'> KNOW MORE </button>
+          </a>
+          <a href="/contact">
+
+            <button className='contact-us'> CONTACT US </button>
+
+          </a>
+
 
         </div>
 
@@ -91,9 +109,16 @@ function Carousel() {
             BRILLIANT STUDENTS
           </p>
 
-          <button className='know-more'> KNOW MORE </button>
+          <a href="/about">
 
-          <button className='contact-us'> CONTACT US </button>
+            <button className='know-more'> KNOW MORE </button>
+          </a>
+          <a href="/contact">
+
+            <button className='contact-us'> CONTACT US </button>
+
+          </a>
+
 
         </div>
 
@@ -108,10 +133,16 @@ function Carousel() {
           <p className='caro-text'>
             BRILLIANT STUDENTS
           </p>
+          <a href="/about">
 
-          <button className='know-more'> KNOW MORE </button>
+            <button className='know-more'> KNOW MORE </button>
+          </a>
+          <a href="/contact">
 
-          <button className='contact-us'> CONTACT US </button>
+            <button className='contact-us'> CONTACT US </button>
+
+          </a>
+
 
         </div>
 
@@ -121,7 +152,7 @@ function Carousel() {
 
 
 
-      
+
     </Swiper>
 
   )
