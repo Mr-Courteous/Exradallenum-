@@ -28,8 +28,8 @@ function Carousel() {
         <div className='position' >
 
           <p className='caro-text'>
-            BRILLIANT STUDENTS
-          </p>
+            EMPOWERING MINDS, BRIGHTENING FUTURES.
+            YOUR JOURNEY STARTS HERE.          </p>
 
 
           <a href="/about">
@@ -60,8 +60,8 @@ function Carousel() {
         <div className='position'>
 
           <p className='caro-text'>
-            BRILLIANT STUDENTS
-          </p>
+            A TRADITION OF EXCELLENCE, A FUTURE OF PROMISE.
+            YOUR FUTURE STARTS NOW. ENROLL TODAY.          </p>
 
 
           <a href="/about">
@@ -86,8 +86,7 @@ function Carousel() {
         <div className='position'>
 
           <p className='caro-text'>
-            BRILLIANT STUDENTS
-          </p>
+EDUCATION IS NOT EXPENSIVE. DO NOT TRY IGNORANCE.          </p>
 
           <a href="/about">
 
@@ -112,8 +111,8 @@ function Carousel() {
         <div className='position'>
 
           <p className='caro-text'>
-            BRILLIANT STUDENTS
-          </p>
+          EXPERIENCE THE DIFFERENCE. SCHEDULE A TOUR.
+          JOIN OUR COMMUNITY OF LEARNERS.          </p>
 
           <a href="/about">
 
@@ -137,8 +136,7 @@ function Carousel() {
         <div className='position'>
 
           <p className='caro-text'>
-            BRILLIANT STUDENTS
-          </p>
+INVEST IN YOUR WARD TODAY. ENROLL WITH EXRADELLENUM          </p>
           <a href="/about">
 
             <button className='know-more'> KNOW MORE </button>

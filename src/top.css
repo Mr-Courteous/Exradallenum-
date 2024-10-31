@@ -288,6 +288,16 @@
     z-index: 1;
 }
 
+
+
+@media screen and (max-width: 900px) {
+    .caro-text {
+font-size: 18px; 
+line-height: 20px;   }
+}
+
+
+
 .test{
     /* filter: brightness(0%); */
 }
