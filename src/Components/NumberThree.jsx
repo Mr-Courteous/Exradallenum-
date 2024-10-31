@@ -15,10 +15,12 @@ function NumbThree() {
 
                 <div className="content-two">
 
+                    <a href="/apply-now">
 
-                    <button className="apply-now">
-                        APPLY NOW
-                    </button>
+                        <button className="apply-now">
+                            APPLY NOW
+                        </button>
+                    </a>
 
 
                 </div>

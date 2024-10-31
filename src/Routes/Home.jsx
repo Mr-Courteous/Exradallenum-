@@ -14,6 +14,19 @@ import { ContactUs } from '../Components/Form'
 import CarouselTwo from "../Components/CarouselTwo";
 
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+
+
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay';
+
+
 
 function Home() {
     return (
@@ -58,26 +71,14 @@ function Home() {
 
             <Map />
 
-{/* 
-            <div className="background" style={{
-                backgroundImage: 'url(images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.12 PM (1).jpeg)',
-                // height: "200px",
-                textAlign: "center"
-            }} >
 
-                <CarouselTwo />
+            <div className="background">
 
-                <div style={{
-                    backgroundColor: "red",
-                    height: ' 200px'
-                }}>
-                    you
-                </div>
 
                 <CarouselTwo />
 
 
-            </div> */}
+            </div>
 
 
 

@@ -21,8 +21,8 @@ function Carousel() {
       autoplay={true}
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
+    // onSlideChange={() => console.log('slide change')}
+    // onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
         <div className='position'>
@@ -45,7 +45,13 @@ function Carousel() {
 
         </div>
 
-        <img className='caro-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.12 PM (1).jpeg" alt=" school" />
+        <div className='test'>
+
+          <img className='caro-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.12 PM (1).jpeg" alt=" school" />
+
+
+        </div>
+
       </SwiperSlide>
 
 

@@ -2,12 +2,36 @@ import React from "react";
 
 
 function NumbOne() {
+
+
+    const show = ["come home", "you are good", "finr man"]
+
+    let randomIndex = Math.floor(Math.random() * show.length);
+
     return (
         <div className="NumbOne">
 
             <div className="content">
 
-                <p className="content-one">  Latest News: </p>
+                <div style={{
+                    // width:"20%",
+                    display: "flex",
+                    justifyContent: "flex-start"
+                }}>
+
+                    <p className="content-one">  Latest News: </p>
+
+                    <marquee direction="right" scrollamount="4" style={{
+                        // width: "100px"
+                    }}>
+                        <p className="content-one">
+
+                            We are Open                        </p>
+                    </marquee>
+
+                </div>
+
+
 
                 <div className="content-two">
 

@@ -1,14 +1,7 @@
 import React from "react";
 import ContactUs from "./Form";
 
-
-// React
-import { motion } from "framer-motion"
-
-// React Server Components
-// import * as motion from "framer-motion/client"
-
-function Footer() {
+function FooterTwo() {
     return (
         <div>
             <div>
@@ -17,32 +10,19 @@ function Footer() {
             </div>
 
 
-
-
-
-
             <div className="footer-div">
 
 
 
-                <motion.div
-                        initial={{ opacity: 0, }}
-                        whileInView={{ opacity: 1, transition: { delay: 0.2, duration: 0.5} }}
-                        viewport={{amount: 1 }}
-                >
+                {/* <div>
 
                     <p className="footer-head-div">
                         CONTACT US
                     </p>
 
                     <ContactUs />
-                </motion.div>
-                <motion.div
-                      initial={{ opacity: 0, }}
-                      whileInView={{ opacity: 1, transition: { delay: 0.2, duration: 0.5} }}
-                      viewport={{amount: 1 }}
-
-                >
+                </div> */}
+                <div>
                     <p className="footer-head-div">
                         OUR ADDRESS
 
@@ -73,20 +53,12 @@ function Footer() {
                     </p>
 
 
-                </motion.div>
-
-
-                <motion.div
-
-                    initial={{ opacity: 0, }}
-                    whileInView={{ opacity: 1, transition: { delay: 0.2, duration: 0.5} }}
-                    viewport={{amount: 1 }}
-
-                >
+                </div>
+                <div>
 
 
                     <p className="footer-head-div">
-                        SOCIAL MEDIA
+                        SOCIAL MEDIA 
                     </p>
 
 
@@ -100,7 +72,7 @@ function Footer() {
                     </div>
 
 
-                </motion.div>
+                </div>
 
             </div>
 
@@ -116,7 +88,7 @@ function Footer() {
             </div>
 
 
-        </div >
+        </div>
 
 
     )
@@ -124,4 +96,4 @@ function Footer() {
 
 
 
-export default Footer;
+export default FooterTwo;

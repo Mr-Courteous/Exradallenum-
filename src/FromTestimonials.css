@@ -340,12 +340,14 @@ button:hover {
   font-size: 10px;
   color: black;
   font-weight: bold;
+  text-align: center;
 
 }
 
 
-.contact-us-div{
+.contact-us-div {
   width: 80%;
+  margin: auto;
 }
 
 
@@ -369,6 +371,27 @@ button:hover {
 /* zxnxnxnxnx */
 
 
-.background{
-  background-image: url('public/images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.12 PM (1).jpeg');
+.background {
+  /* background-image: url("/public/images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.12 PM (1).jpeg"); */
+  background: linear-gradient(rgba(-255,-255,-255,0.5), rgba(22, 0, 0, 0.5)),
+  url('/public/images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.12 PM (1).jpeg');
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-blend-mode: lighten; */
+  /* filter:brightness(50%) */
+
+  /* height: 400px; */
+
+}
+
+
+@media (min-width: 900px) {
+  .background {
+    height: 400px;
+  }
+}
+
+.swiper-pagination-bullet{
+  color:red
 }

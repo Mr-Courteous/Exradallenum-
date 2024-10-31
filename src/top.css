@@ -24,8 +24,13 @@
 
 }
 
+.content p{
+    font-size: 10px;
+}
 
-
+.content-one{
+    width:100%;
+}
 
 
 
@@ -246,6 +251,8 @@
 .caro-image {
     width: 100%;
     /* height: 600px; */
+    
+ 
 }
 
 .position {
@@ -278,8 +285,12 @@
     font-size: 30px;
     color: white;
     text-align: center;
+    z-index: 1;
 }
 
+.test{
+    /* filter: brightness(0%); */
+}
 
 .know-more,
 .contact-us {
