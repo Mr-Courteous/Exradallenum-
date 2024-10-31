@@ -25,7 +25,7 @@ function Carousel() {
     // onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
-        <div className='position'>
+        <div className='position' >
 
           <p className='caro-text'>
             BRILLIANT STUDENTS
@@ -47,7 +47,7 @@ function Carousel() {
 
         <div className='test'>
 
-          <img className='caro-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.12 PM (1).jpeg" alt=" school" />
+          <img className='caro-image' src="images/SlidePictures/brightness/image (1).jpg" alt=" school" />
 
 
         </div>
@@ -77,7 +77,7 @@ function Carousel() {
         </div>
 
 
-        <img className='caro-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.12 PM.jpeg" alt=" school" />
+        <img className='caro-image' src="images/SlidePictures/brightness/image (2).jpg" alt=" school" />
       </SwiperSlide>
 
 
@@ -102,7 +102,7 @@ function Carousel() {
 
         </div>
 
-        <img className='caro-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.13 PM (2).jpeg" alt=" school" />
+        <img className='caro-image' src="images/SlidePictures/brightness/image (4).jpg" alt=" school" />
       </SwiperSlide>
 
 
@@ -128,7 +128,7 @@ function Carousel() {
 
         </div>
 
-        <img className='caro-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.14 PM (1).jpeg" alt=" school" />
+        <img className='caro-image' src="images/SlidePictures/brightness/image2.jpg" alt=" school" />
       </SwiperSlide>
 
 
@@ -152,7 +152,7 @@ function Carousel() {
 
         </div>
 
-        <img className='caro-image' src="images/SlidePictures/WhatsApp Image 2024-10-16 at 12.31.15 PM (2).jpeg" alt=" school" />
+        <img className='caro-image' src="images/SlidePictures/brightness/image3.jpg" alt=" school" />
       </SwiperSlide>
 
 
