@@ -41,13 +41,23 @@
 }
 
 
-.logo {
+.second-content {
+    width: 85%;
+    margin: auto;
+    padding-top: 9px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.logo-text {
     margin-top: 7px;
     font-family: "Pacifico", cursive;
     font-weight: 500;
     font-style: normal;
     color: #405cf5;
-    font-size:20px;
+    /* font-size:20px; */
     
     /* background-color: #405cf5; */
 
@@ -55,7 +65,12 @@
 
 }
 
-
+@media screen and (max-width: 900px) {
+    .logo-text {
+        width: 140px;
+        font-size: 20px;
+    }
+}
 
 
 
@@ -117,16 +132,9 @@
 
 }
 
-.logo {
-    width: 180px;
-}
 
 
-@media screen and (max-width: 900px) {
-    .logo {
-        width: 140px;
-    }
-}
+
 
 .apply-now {
 

@@ -5,10 +5,10 @@ function NumbThree() {
     return (
         <div className="NumbThree">
 
-            <div className="content">
+            <div className="second-content">
 
                 <div>
-                    <p className="logo"> Exradallenum </p>
+                    <p className="logo-text"> Exradallenum </p>
 
                 </div>
 
