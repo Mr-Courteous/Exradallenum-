@@ -32,15 +32,30 @@ function Carousel() {
             YOUR JOURNEY STARTS HERE.          </p>
 
 
-          <a href="/about">
 
-            <button className='know-more'> KNOW MORE </button>
-          </a>
-          <a href="/contact">
+          <div style={{
+            display: "flex",
+            flexDirection: "row"
+            ,textAlign:"center",
+            width:"100%",
+            margin:"auto",
+            // position:"relative"
+            
 
-            <button className='contact-us'> CONTACT US </button>
+          }}>       <a href="/about">
 
-          </a>
+              <button className='know-more'> KNOW MORE </button>
+            </a>
+            <a href="/contact">
+
+              <button className='contact-us'> CONTACT US </button>
+
+            </a>
+
+          </div>
+
+
+
 
 
         </div>
@@ -64,15 +79,26 @@ function Carousel() {
             YOUR FUTURE STARTS NOW. ENROLL TODAY.          </p>
 
 
-          <a href="/about">
+          <div style={{
+            display: "flex",
+            flexDirection: "row",
+            textAlign:"center",
+            width:"100%",
+            margin:"auto"
 
-            <button className='know-more'> KNOW MORE </button>
-          </a>
-          <a href="/contact">
+          }}>       <a href="/about">
 
-            <button className='contact-us'> CONTACT US </button>
+              <button className='know-more'> KNOW MORE </button>
+            </a>
+            <a href="/contact">
 
-          </a>
+              <button className='contact-us'> CONTACT US </button>
+
+            </a>
+
+          </div>
+
+
 
         </div>
 
@@ -86,17 +112,28 @@ function Carousel() {
         <div className='position'>
 
           <p className='caro-text'>
-EDUCATION IS NOT EXPENSIVE. DO NOT TRY IGNORANCE.          </p>
+            EDUCATION IS NOT EXPENSIVE. ENROLL YOUR WARD NOW. DO NOT TRY IGNORANCE.         </p>
 
-          <a href="/about">
+          <div style={{
+            display: "flex",
+            flexDirection: "row",
+            textAlign:"center",
+            width:"100%",
+            margin:"auto"
 
-            <button className='know-more'> KNOW MORE </button>
-          </a>
-          <a href="/contact">
+          }}>       <a href="/about">
 
-            <button className='contact-us'> CONTACT US </button>
+              <button className='know-more'> KNOW MORE </button>
+            </a>
+            <a href="/contact">
 
-          </a>
+              <button className='contact-us'> CONTACT US </button>
+
+            </a>
+
+          </div>
+
+
 
 
         </div>
@@ -110,19 +147,41 @@ EDUCATION IS NOT EXPENSIVE. DO NOT TRY IGNORANCE.          </p>
 
         <div className='position'>
 
-          <p className='caro-text'>
-          EXPERIENCE THE DIFFERENCE. SCHEDULE A TOUR.
-          JOIN OUR COMMUNITY OF LEARNERS.          </p>
 
-          <a href="/about">
+          <div style={{
+            marginTop:"10px",
+          }}>
+            <p className='caro-text'>
+              EXPERIENCE THE DIFFERENCE. SCHEDULE A TOUR.
+              JOIN OUR COMMUNITY OF LEARNERS.
+            </p>
 
-            <button className='know-more'> KNOW MORE </button>
-          </a>
-          <a href="/contact">
+          </div>
 
-            <button className='contact-us'> CONTACT US </button>
 
-          </a>
+
+
+
+          <div style={{
+            display: "flex",
+            flexDirection: "row",
+             textAlign:"center",
+             width:"100%",
+             margin:"auto"
+
+           }}>       <a href="/about">
+
+              <button className='know-more'> KNOW MORE </button>
+            </a>
+            <a href="/contact">
+
+              <button className='contact-us'> CONTACT US </button>
+
+            </a>
+
+          </div>
+
+
 
 
         </div>
@@ -136,16 +195,27 @@ EDUCATION IS NOT EXPENSIVE. DO NOT TRY IGNORANCE.          </p>
         <div className='position'>
 
           <p className='caro-text'>
-INVEST IN YOUR WARD TODAY. ENROLL WITH EXRADELLENUM          </p>
-          <a href="/about">
+            INVEST IN YOUR WARD TODAY. ENROLL WITH EXRADELLENUM          </p>
+          <div style={{
+            display: "flex",
+            flexDirection: "row",
+            textAlign:"center",
+            width:"100%",
+            margin:"auto"
 
-            <button className='know-more'> KNOW MORE </button>
-          </a>
-          <a href="/contact">
+          }}>       <a href="/about">
 
-            <button className='contact-us'> CONTACT US </button>
+              <button className='know-more'> KNOW MORE </button>
+            </a>
+            <a href="/contact">
 
-          </a>
+              <button className='contact-us'> CONTACT US </button>
+
+            </a>
+
+          </div>
+
+
 
 
         </div>
