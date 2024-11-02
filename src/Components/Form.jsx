@@ -106,6 +106,8 @@ export const ContactUs = () => {
                     console.log('SUCCESS!');
 
                     toast.success("Email sent")
+                    window.location.reload();
+
 
 
                 },

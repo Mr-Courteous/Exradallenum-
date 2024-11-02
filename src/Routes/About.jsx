@@ -39,6 +39,99 @@ function About() {
 
                 Exradallenum offers a rigorous curriculum that aligns with the latest educational standards. Our experienced and dedicated faculty are passionate about teaching and inspiring students to develop a deep understanding of various subjects. We also provide a wide range of extracurricular activities, including sports, arts, and clubs, to help students explore their interests and develop essential skills.
             </p>
+
+
+
+
+
+            <h2 style={{ textAlign: 'center', color: '#747474' }}>
+                OUR VISION
+            </h2>
+
+            <p style={{
+                lineHeight: '30px', color: '#747474', fontFamily: "Pacifico", textAlign: 'center', padding: '3%'
+
+            }}>
+
+                To be a leading primary school, recognized for academic excellence, character development, and a strong sense of community.
+
+            </p>
+
+            <p style={{
+                lineHeight: '30px', color: '#747474', fontFamily: "Pacifico", textAlign: 'center', padding: '3%'
+
+            }}>
+                To create lifelong learners who are confident, curious, and compassionate.
+                Secondary School:
+
+            </p>
+            <p style={{
+                lineHeight: '30px', color: '#747474', fontFamily: "Pacifico", textAlign: 'center', padding: '3%'
+
+            }}>                    To be a premier secondary school that empowers students to become innovative thinkers, ethical leaders, and global citizens.
+
+
+            </p>
+
+            <p style={{
+                lineHeight: '30px', color: '#747474', fontFamily: "Pacifico", textAlign: 'center', padding: '3%'
+
+            }}>                    To provide a transformative educational experience that prepares students for a successful future.
+
+
+            </p>
+
+
+
+            <h2 style={{ textAlign: 'center', color: '#747474' }}>
+                OUR MISSION
+            </h2>
+
+            <p style={{
+                lineHeight: '30px', color: '#747474', fontFamily: "Pacifico", textAlign: 'center', padding: '3%'
+
+            }}>
+
+                To provide a nurturing and stimulating learning environment that fosters a love of learning.
+
+
+            </p>
+
+            <p style={{
+                lineHeight: '30px', color: '#747474', fontFamily: "Pacifico", textAlign: 'center', padding: '3%'
+
+            }}>
+                To equip young learners with the knowledge, skills, and values needed to succeed in life.
+
+
+
+            </p>
+            <p style={{
+                lineHeight: '30px', color: '#747474', fontFamily: "Pacifico", textAlign: 'center', padding: '3%'
+
+            }}>                  To cultivate a strong sense of community and belonging.
+
+
+
+
+            </p>
+
+            <p style={{
+                lineHeight: '30px', color: '#747474', fontFamily: "Pacifico", textAlign: 'center', padding: '3%'
+
+            }}>                  To inspire students to reach their full potential through a rigorous academic program and diverse extracurricular opportunities.
+
+            </p>
+
+
+
+            <p style={{
+                lineHeight: '30px', color: '#747474', fontFamily: "Pacifico", textAlign: 'center', padding: '3%'
+
+            }}>           To prepare students for higher education and future careers by developing critical thinking, problem-solving, and communication skills
+
+            </p>
+
             <a
                 href="https://wa.link/99zl5j"
                 target="_blank"

@@ -275,9 +275,17 @@
 
 @media screen and (max-width: 900px) {
     .position {
+        top: 30%;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .position {
         top: 20%;
     }
 }
+
 
 /* .know-more{
     width: 100px;
